@@ -4,41 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Characters</title>
+    <title>Challenge</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/script.js"></script>
 </head>
 
 <body>
-
-    
+    <header></header>
+    <main>
         <h1>Animals</h1>
         <section class="animals">
-            <nav class="animal-list">
-                <ul id="list">
-                    <li>Cute</li>
-                    <li>Monkey</li>
-                    <li>Zebra</li>
-                    <li>Lion</li>
-                    <li>Panda</li>
-
-                </ul>
+            <nav class="list">
+                <ul id="list"></ul>
             </nav>
             <div class="details">
+                <h3 id="name"></h3>
                 <figure>
-                    <strong> <p>vote for your fav animal</p><input class="button" type="submit" value="submit" id="vote">vote</strong>
-                   
-                    <img id="image" class="image" src="" alt="">
-                     
-                    <!-- <figcaption>Votes: <span id="votes"></span></figcaption> -->
+                    <img id="image" src="" alt="">
+                    <figcaption>Votes: <span id="votes"></span></figcaption>
                 </figure>
             </div>
         </section>
+
+        <!-- Add a voting form -->
+        <section class="voting">
+            <h2>Vote for your favorite animal</h2>
+            <form id="voteForm">
+                <label for="animal">Vote for your favorite animal:</label>
+                <select id="animal">
+                  <option value="animal">Mr. Cute</option>
+                  <option value="animal">Mx. Monkey</option>
+                  <option value="animal">Ms. Zebrah</option>
+                  <option value="animal">Dr. Lion</option>
+                  <option value="animal">,Mme. Panda</option>
+                </select>
+                <input type="submit" value="Vote">
+                    <!-- Options will be dynamically generated -->
+                
+            </form>
+        </section>
+    </main>
+
+
     
-
-
-   
 </body>
+
 </html>
-
-

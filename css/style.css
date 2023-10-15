@@ -1,7 +1,6 @@
 Animals{
     display: flex;
-    background-position: 0%;
-    background-color: chocolate;
+    text-decoration: dotted;
 }
 body{
     background-color: cornsilk;
