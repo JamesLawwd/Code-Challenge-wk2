@@ -1,0 +1,12 @@
+Animals{
+    display: flex;
+    background-position: 0%;
+    background-color: chocolate;
+}
+body{
+    background-color: cornsilk;
+    align-items: center;
+}
+
+
+
